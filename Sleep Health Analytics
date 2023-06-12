@@ -94,5 +94,3 @@ ORDER BY ObeseAndOverweightCount
 SELECT Gender, Age, Occupation, COUNT(Sleep_Disorder) OVER (PARTITION BY Occupation) AS SleepDisorderCount
 FROM SleepHealth
 WHERE Sleep_Disorder <> 'None'
-
-
