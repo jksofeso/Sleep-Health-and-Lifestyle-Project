@@ -1,5 +1,5 @@
 # Sleep Health and Lifestyle
-Introduction
+Introduction 
 
 I aimed to analyze a dataset on sleep health and lifestyle using SQL. By leveraging SQL queries, I gained valuable insights into sleep patterns, identified trends, and explored relationships between different factors and sleep outcomes.
 
