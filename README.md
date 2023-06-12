@@ -28,7 +28,7 @@ To perform the data analysis, I utilized the following tools and technologies:
 
 SQL: Wrote SQL queries in order to extract and manipulate data from the sleep health and lifestyle dataset.
 
-Data Visualization Tools: Employed a data visualization tools specifically Tableau to visualize the results.
+Data Visualization Tools: Tableau
 
 Conclusion
 
