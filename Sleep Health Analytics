@@ -27,6 +27,13 @@ SELECT Occupation, AVG(Daily_Steps) AS Average_daily_steps
 FROM SleepHealth
 GROUP BY Occupation
 
+--Number of people within an occupation who reported a stress level greater than or equal to 8
+SELECT Occupation, COUNT(Occupation) AS OccupationCount
+FROM SleepHealth
+WHERE Stress_Level >= 8
+GROUP BY Occupation
+HAVING COUNT(Occupation) > 1
+
 --Top 5 occupations with the highest average sleep duration
 SELECT TOP 5 Occupation, AVG(Sleep_Duration) AS AvgSleepDuration
 FROM SleepHealth
